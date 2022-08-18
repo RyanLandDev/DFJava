@@ -1,0 +1,37 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'maven-publish'
+}
+
+group 'net.ryanland'
+version '1.0'
+
+repositories {
+    mavenCentral()
+    maven {
+        name 'm2-dv8tion'
+        url 'https://m2.dv8tion.net/releases'
+    }
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    // json
+    implementation 'org.json:json:20220320'
+    implementation 'com.google.code.gson:gson:2.9.0'
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'net.ryanland'
+            artifactId = 'DFJava'
+            version = '1.0'
+
+            from components.java
+        }
+    }
+}
+
+compileJava.options.encoding = 'UTF-8'
