@@ -4,14 +4,93 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="349dadf4-345e-40b2-b66d-d80e77914c9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DFJava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="349dadf4-345e-40b2-b66d-d80e77914c9c" name="Changes" comment="Base systems">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/actionable/Actionable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/actionable/Messageable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/actionable/SelectableActionable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/code/CodeLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/code/Plot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/code/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/code/condition/Condition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/code/condition/EntityCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/code/condition/GameCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/code/condition/PlayerCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/code/condition/VariableCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/code/condition/variable/EqualsCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/codeblocks/ChestCodeBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/codeblocks/CodeBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/codeblocks/EventCodeBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/codeblocks/SelectableCodeBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/codeblocks/entity_action/EntityAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/codeblocks/entity_event/EntityEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/codeblocks/if_entity/IfEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/codeblocks/if_game/IfGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/codeblocks/if_player/IfPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/codeblocks/if_variable/IfVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/codeblocks/player_action/PlayerAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/codeblocks/player_action/PlayerSendMessageAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/codeblocks/player_event/PlayerEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/codeblocks/player_event/PlayerJoinEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/codeblocks/select_object/EventTargetSelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/codeblocks/select_object/FilterConditionSelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/codeblocks/select_object/SelectObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/codeblocks/select_object/Selection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/EventSelectable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/Selectable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/impl/EDamager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/impl/EDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/impl/EKiller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/impl/EShooter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/impl/EVictim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/impl/LastEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/impl/PDamager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/impl/PDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/impl/PKiller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/impl/PShooter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/impl/PVictim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/impl/Projectile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/method/SelectMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/method/SelectObjectSelectMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/method/TargetSelectMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/target/AllEntitiesTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/target/AllMobsTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/target/AllPlayersTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/target/DamagerTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/target/DefaultTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/target/EntityTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/target/EventTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/target/GameValueTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/target/KillerTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/target/LastEntityTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/target/PlayerTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/target/ProjectileTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/target/SelectionTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/target/ShooterTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/target/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/selectable/target/VictimTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/util/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/value/GameValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/value/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/value/Num.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/value/Particle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/value/Potion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/value/Scope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/value/Sound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/value/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/value/Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/value/Variable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/value/Vector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DFJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ryanland/dfjava/DFJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +114,26 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="2DXGUz4TzJ3vG7EdaDRpxb9H3wf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -50,8 +147,36 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.ryanland.dfjava.codeblocks.if_game" />
+      <recent name="net.ryanland.dfjava.codeblocks.if_entity" />
+      <recent name="" />
+      <recent name="net.ryanland.dfjava.selectable.target" />
+      <recent name="net.ryanland.dfjava.value" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Run" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="DFJava.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -61,8 +186,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660838035392</updated>
-      <workItem from="1660838036575" duration="52000" />
+      <workItem from="1660838036575" duration="1541000" />
+      <workItem from="1660894552612" duration="876000" />
+      <workItem from="1667492598308" duration="686000" />
+      <workItem from="1667496522664" duration="1192000" />
+      <workItem from="1667501880623" duration="1271000" />
+      <workItem from="1667566993398" duration="11955000" />
+      <workItem from="1667642109524" duration="1388000" />
+      <workItem from="1667644069207" duration="10191000" />
+      <workItem from="1667663469203" duration="3160000" />
+      <workItem from="1667831107141" duration="26000" />
+      <workItem from="1667901065076" duration="118000" />
+      <workItem from="1668264696233" duration="2147000" />
+      <workItem from="1668615799821" duration="6000" />
+      <workItem from="1668619025068" duration="594000" />
+      <workItem from="1668628640962" duration="6238000" />
+      <workItem from="1668771243034" duration="5709000" />
+      <workItem from="1669029268232" duration="3625000" />
+      <workItem from="1669297952181" duration="96000" />
+      <workItem from="1669580512836" duration="65000" />
+      <workItem from="1670503735364" duration="90000" />
+      <workItem from="1670503883883" duration="591000" />
+      <workItem from="1670506269278" duration="5087000" />
+      <workItem from="1671107078227" duration="592000" />
+      <workItem from="1671393616457" duration="630000" />
+      <workItem from="1671719053231" duration="3745000" />
+      <workItem from="1672311333317" duration="6548000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1660838146366</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660838146366</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <created>1660838290254</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660838290254</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,8 +243,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init" />
+    <MESSAGE value="Base systems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base systems" />
   </component>
 </project>

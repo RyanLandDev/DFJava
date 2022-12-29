@@ -18,8 +18,8 @@ repositories {
 
 dependencies {
     // json
-    implementation 'org.json:json:20220320'
-    implementation 'com.google.code.gson:gson:2.9.0'
+    implementation 'org.json:json:20220924'
+    implementation 'com.google.code.gson:gson:2.10'
 }
 
 publishing {

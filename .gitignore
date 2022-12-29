@@ -1,1 +1,3 @@
 .gradle
+src/test
+build
